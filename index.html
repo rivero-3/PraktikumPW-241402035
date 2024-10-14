@@ -11,6 +11,7 @@
       @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
    </style>
    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -18,7 +19,7 @@
    <nav class="navbar fixed-top bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
       <div class="container-fluid">
          <a style="font-size: 2rem; margin-left: 2rem;" class="navbar-brand roboto-condensed" href="#">
-            <<span class="text-primary">Marco</span>.r/>
+            <<span class="text-primary">Marco</span>'s/>
          </a>
          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,12 +52,12 @@
    <section class="bg-dark">
       <div style="padding-top: 4%;" class="container">
          <div style="margin-top: 8.3rem;" class="row">
-            <div class="col text-light align-self-center">
+            <div data-aos="fade-right" data-aos-duration="1200" class="col text-light align-self-center">
                <h1>Hi, Welcome<br>I'm <span class="text-primary roboto-mono typing"></span></h1>
                <p style="margin-bottom: 2rem; font-size: 1.2rem;">This is a website for my personal portofolio.</p>
                <a class="btn btn-primary" href="#contact" role="button">Hire Me</a>
             </div>
-            <div class="col text-center">
+            <div data-aos="zoom-in-left" data-aos-duration="1000" class="col text-center">
                <img style="border-radius: 50%;" src="marcoo.jpg" alt=".." width="70%">
             </div>
          </div>
@@ -74,10 +75,10 @@
       <br id="about"><br>
       <div style="padding-top: 4%;" class="container">
          <div class="row">
-            <div class="col text-center">
+            <div data-aos="fade-down-right" data-aos-duration="1200" class="col text-center">
                <img style="border-radius: 20px;" src="about.jpg" alt=".." width="60%">
             </div>
-            <div class="col text-dark align-self-center">
+            <div data-aos="fade-down-left" data-aos-duration="1200" class="col text-dark align-self-center">
                <h1 style="margin-bottom: 2rem;"><b>About <span class="text-light">Me</span></b></h1>
                <div class="text-light">
                   <p style="font-size: 1.5rem; font-weight: 400;">Halo semuanya! Nama saya Marco Rivero Hutagaol. Saya
@@ -101,19 +102,21 @@
    <section style="background-color: #f0f1f2;">
       <br id="service"><br><br><br>
       <div style="margin-left: 7.5rem;" class="container">
-         <h1 class="text-dark"><b>My <span class="text-primary">Service</span></b></h1>
+         <h1 data-aos="fade-right" class="text-dark"><b>My <span class="text-primary">Service</span></b></h1>
          <div class="row">
             <div class="col">
                <br><br>
             </div>
-            <p class="roboto-mono text-center" style="font-size: 2rem; font-weight: 450;">Specialize in</p>
+            <p data-aos="fade-down" class="roboto-mono text-center" style="font-size: 2rem; font-weight: 450;">
+               Specialize in</p>
             <div class="col"></div>
          </div>
 
          <br><br>
 
          <div style="display: flex; justify-content: space-between;" class="row">
-            <div class="card text-center mb-3 shadow p-3 mb-5 bg-body-tertiary rounded"
+            <div data-aos="fade-right" data-aos-duration="1200"
+               class="card text-center mb-3 shadow p-3 mb-5 bg-body-tertiary rounded"
                style="width: 25rem; height: 20rem;">
                <div class="card-body">
                   <i style="font-size: 3rem; margin-bottom: 2rem; margin-top: 0.3rem;" class="carbon--cics-program"></i>
@@ -123,7 +126,8 @@
                </div>
             </div>
 
-            <div class="card text-center mb-3 shadow p-3 mb-5 bg-body-tertiary rounded"
+            <div data-aos="fade-down" data-aos-duration="1200" data-aos-delay="200"
+               class="card text-center mb-3 shadow p-3 mb-5 bg-body-tertiary rounded"
                style="width: 25rem; height: 20rem;">
                <div class="card-body">
                   <i style="font-size: 2.8rem; margin-bottom: 2.2rem; margin-top: 0.5rem;" class="streamline--web"></i>
@@ -132,7 +136,8 @@
                </div>
             </div>
 
-            <div class="card text-center mb-3 shadow p-3 mb-5 bg-body-tertiary rounded"
+            <div data-aos="fade-left" data-aos-duration="1200" data-aos-delay="400"
+               class="card text-center mb-3 shadow p-3 mb-5 bg-body-tertiary rounded"
                style="width: 25rem; height: 20rem;">
                <div class="card-body">
                   <i style="font-size: 2.8rem; margin-bottom: 2.2rem; margin-top: 0.5rem;"
@@ -158,7 +163,7 @@
       <br id="exp"><br><br><br>
       <div style="margin-left: 7.5rem;" class="container">
          <div class="row">
-            <div class="col">
+            <div data-aos="fade-right" class="col">
                <h1 class="text-light"><b>My <span class="text-dark">Experiences</b></span></h1>
                <br>
                <p class="text-center text-light" style="font-size: 1.4rem; font-weight: 400;">Saya memiliki beberapa
@@ -171,21 +176,24 @@
          <br><br>
 
          <div style="display: flex; justify-content: space-between;" class="row">
-            <div class="card bg-dark text-light shadow-lg rounded" style="width: 25rem; height: 20rem;">
+            <div data-aos="fade-up-left" data-aos-duration="1200" data-aos-delay="400"
+               class="card bg-dark text-light shadow-lg rounded" style="width: 25rem; height: 20rem;">
                <img src="expe3.png" class="card-img-top mt-3" alt="...">
                <div class="card-body">
                   <p class="card-text text-center">Saya pernah membuat design untuk program kalkulator</p>
                </div>
             </div>
 
-            <div class="card bg-dark text-light shadow-lg rounded" style="width: 25rem; height: 20rem;">
+            <div data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200"
+               class="card bg-dark text-light shadow-lg rounded" style="width: 25rem; height: 20rem;">
                <img src="expe1.png" class="card-img-top mt-3" alt="...">
                <div class="card-body">
                   <p class="card-text text-center">Saya pernah membuat website untuk penjualan kopi</p>
                </div>
             </div>
 
-            <div class="card bg-dark text-light shadow-lg rounded" style="width: 25rem; height: 20rem;">
+            <div data-aos="fade-up-right" data-aos-duration="1200" class="card bg-dark text-light shadow-lg rounded"
+               style="width: 25rem; height: 20rem;">
                <img src="expe2.jpg" class="card-img-top mt-3" alt="...">
                <div class="card-body">
                   <p class="card-text text-center">Saya pernah menjuarai lomba band se Sumatra Utara tingkat pelajar
@@ -208,21 +216,21 @@
    <section style="background-color: #212121;">
       <br id="contact"><br><br><br>
       <div style="padding-bottom: 5rem;" class="container text-light">
-         <div class="row">
+         <div data-aos="fade-up" class="row">
             <h1 style="margin-bottom: 3.5rem;" class="text-primary text-center"><b>Contact <span
                      class="text-light">Me</b></span></h1>
             <p class="text-center" style="font-size: 1.4rem; margin-bottom: 3rem;">Anda bisa menghubungi saya disini</p>
          </div>
 
          <div class="row">
-            <div class="col align-self-center">
+            <div data-aos="fade-right" data-aos-duration="1200" class="col align-self-center">
                <h3>Phone<span class="text-primary">_088261986035</span></h3>
                <br>
                <h3>Email<span class="text-primary">_marco30@gmail.com</span></h3>
                <br>
             </div>
             <div class="col">
-               <form>
+               <form data-aos="fade-left" data-aos-duration="1300">
                   <div class="form-floating mb-3">
                      <input type="email" class="form-control" id="email" placeholder="name@example.com">
                      <label style="color: black;" for="floatingInput">Email</label>
@@ -261,6 +269,10 @@
       integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
       crossorigin="anonymous" referrerpolicy="no-referrer"></script>
    <script src="script.js"></script>
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script>
+      AOS.init();
+   </script>
 </body>
 
 </html>
