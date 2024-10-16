@@ -25,7 +25,7 @@
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
          </button>
-         <div style="margin: 0.5rem;" class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+         <div style="margin: 0.5rem;" class=" justify-content-end" id="navbarNavDropdown">
             <ul style="margin-right: 1.2rem;" class="navbar-nav roboto-condensed">
                <li class="nav-item">
                   <a class="nav-link" aria-current="page" href="#">Home</a>
@@ -51,7 +51,7 @@
    <!-- HERO SECT START -->
    <section class="bg-dark">
       <div style="padding-top: 4%;" class="container">
-         <div style="margin-top: 8.3rem;" class="row">
+         <div style="margin-top: 7rem;" class="row">
             <div data-aos="fade-right" data-aos-duration="1200" class="col text-light align-self-center">
                <h1>Hi, Welcome<br>I'm <span class="text-primary roboto-mono typing"></span></h1>
                <p style="margin-bottom: 2rem; font-size: 1.2rem;">This is a website for my personal portofolio.</p>
@@ -237,9 +237,8 @@
                   </div>
 
                   <div class="form-floating">
-                     <textarea id="mess" style="height: 150px;" class="form-control" placeholder="Leave a comment here"
-                        id="floatingTextarea"></textarea>
-                     <label style="color: black;" for="floatingTextarea">Message</label>
+                     <textarea style="height: 150px;" class="form-control" placeholder="Leave a comment here" id="mess""></textarea>
+                     <label style=" color: black;" for="floatingTextarea">Message</label>
                   </div>
                   <br>
                   <button onclick="send()" type="reset" class="btn btn-primary">Send</button>
@@ -265,6 +264,8 @@
    </footer>
    <!-- FOOTER END -->
 
+
+
    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
       integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
       crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -273,6 +274,7 @@
    <script>
       AOS.init();
    </script>
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>
