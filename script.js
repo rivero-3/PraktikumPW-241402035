@@ -10,9 +10,30 @@ function send() {
    const email = document.getElementById('email').value;
    const message = document.getElementById('mess').value;
 
-   if(email === "" || message === "") {
-      alert("Email and message still empty")
+   if (email === "" && message === "") {
+      Swal.fire({
+         icon: "error",
+         title: "Oops...",
+         text: "Email and message are stil empty"
+      });
+   } else if (email === "") {
+      Swal.fire({
+         icon: "error",
+         title: "Oops...",
+         text: "Email is stil empty"
+      });
+   } else if (message === "") {
+      Swal.fire({
+         icon: "error",
+         title: "Oops...",
+         text: "Message is stil empty"
+      });
    } else {
-      alert("Thank you for sending the message")
+      Swal.fire({
+         title: "Thank you!",
+         text: "I will contact you soon :D",
+         icon: "success"
+      });
    }
 }
+
